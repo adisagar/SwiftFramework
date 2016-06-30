@@ -8,7 +8,7 @@ s.summary = "This framework does all IRM operations."
 s.requires_arc = true
 
 # 2
-s.version = "0.0.8"
+s.version = "0.0.9"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -39,5 +39,5 @@ s.module_map = 'SwiftFramework/SwiftFramework.modulemap'
 #s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => 'AWIrmFramework/MSRightsManagement.framework/' }
 #s.public_header_files =  "AWIrmFramework/*.{h}"
 #s.public_header_files = "SwiftFramework/AwFramework.framework/Versions/A/Headers/*.{h}"
-s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => 'AWIrmFramework/MSRightsManagement.framework' }
+#s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => 'AWIrmFramework/MSRightsManagement.framework' }
 end
