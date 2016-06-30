@@ -18,7 +18,7 @@ public class AwSwiftOperation: NSObject {
         var result = AwOperation().getData() + "Swift"
         
     }
-    
+       
     public func Irm() {
        var x = MSProtectedData()
            x.length(nil)
