@@ -3,7 +3,7 @@ framework module SwiftFramework {
 umbrella header "SwiftFramework.h"
 
 module Private {
-    umbrella header "MSRightsManagement.framework/Headers/MSRightsManagement.h"
+    umbrella header "/Users/adityaprasad/Documents/Development/Samples/Learning/cocoaPods/ObjcFramework/SwiftFramework/SwiftFramework/MSRightsManagement.framework/Headers/MSRightsManagement.h"
     export *
 }
 
