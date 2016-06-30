@@ -8,6 +8,6 @@
 
 #ifndef SwiftFramework_h
 #define SwiftFramework_h
-#import <MSRightsManagement/MSRightsManagement.h>
+
 
 #endif /* SwiftFramework_h */
