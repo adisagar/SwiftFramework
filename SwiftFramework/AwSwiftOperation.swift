@@ -16,10 +16,10 @@ public class AwSwiftOperation: NSObject {
 //        
 //    }
     
-//    public func Irm() {
-//       var x = MSProtectedData()
-//           x.length(nil)
-//    }
+    public func Irm() {
+       var x = MSProtectedData()
+           x.length(nil)
+    }
     
     
 }

@@ -17,6 +17,7 @@
 		C0AB5F461D243DFE0012894F /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C0AB5F451D243DFE0012894F /* libresolv.9.tbd */; };
 		C0AB5F481D243E070012894F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0AB5F471D243E070012894F /* Security.framework */; };
 		C0AB5F4A1D243E130012894F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0AB5F491D243E130012894F /* MessageUI.framework */; };
+		C0AB5F5B1D2512240012894F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0AB5F5A1D2512240012894F /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		C0AB5F511D2444590012894F /* SwiftFramework-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftFramework-Bridging-Header.h"; sourceTree = "<group>"; };
 		C0AB5F581D24F0E60012894F /* SwiftFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftFramework.h; sourceTree = "<group>"; };
 		C0AB5F591D24F25C0012894F /* SwiftFramework.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = SwiftFramework.modulemap; sourceTree = "<group>"; };
+		C0AB5F5A1D2512240012894F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0AB5F5B1D2512240012894F /* UIKit.framework in Frameworks */,
 				C0AB5F4A1D243E130012894F /* MessageUI.framework in Frameworks */,
 				C0AB5F481D243E070012894F /* Security.framework in Frameworks */,
 				C0AB5F461D243DFE0012894F /* libresolv.9.tbd in Frameworks */,
@@ -76,6 +79,7 @@
 		C0240D8F1D228EB1008B6148 = {
 			isa = PBXGroup;
 			children = (
+				C0AB5F5A1D2512240012894F /* UIKit.framework */,
 				C0240D9B1D228EB1008B6148 /* SwiftFramework */,
 				C0240DA71D228EB1008B6148 /* SwiftFrameworkTests */,
 				C0240D9A1D228EB1008B6148 /* Products */,
@@ -391,6 +395,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.airwatch.SwiftFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
