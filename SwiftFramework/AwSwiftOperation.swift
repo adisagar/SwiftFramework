@@ -7,19 +7,19 @@
 //
 
 
-import AwFramework
+
 
 public class AwSwiftOperation: NSObject {
     
-    public func getData() {
-        var result = AwOperation().getData() + "Swift"
-        
-    }
-       
-    public func Irm() {
-       var x = MSProtectedData()
-           x.length(nil)
-    }
+//    public func getData() {
+//        var result = AwOperation().getData() + "Swift"
+//        
+//    }
+    
+//    public func Irm() {
+//       var x = MSProtectedData()
+//           x.length(nil)
+//    }
     
     
 }

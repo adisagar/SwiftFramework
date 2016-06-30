@@ -10,7 +10,6 @@
 		C0240DA41D228EB1008B6148 /* SwiftFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0240D991D228EB1008B6148 /* SwiftFramework.framework */; };
 		C0240DA91D228EB1008B6148 /* SwiftFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0240DA81D228EB1008B6148 /* SwiftFrameworkTests.swift */; };
 		C0240DB71D228EE0008B6148 /* AwSwiftOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0240DB61D228EE0008B6148 /* AwSwiftOperation.swift */; };
-		C0AB5EFA1D24328E0012894F /* AwFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0AB5EF91D24328E0012894F /* AwFramework.framework */; };
 		C0AB5EFC1D2434520012894F /* MSRightsManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0AB5EFB1D2434520012894F /* MSRightsManagement.framework */; };
 		C0AB5EFE1D24345F0012894F /* MSRightsManagementResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C0AB5EFD1D24345F0012894F /* MSRightsManagementResources.bundle */; };
 		C0AB5F421D243DED0012894F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0AB5F411D243DED0012894F /* CoreData.framework */; };
@@ -37,7 +36,6 @@
 		C0240DA81D228EB1008B6148 /* SwiftFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFrameworkTests.swift; sourceTree = "<group>"; };
 		C0240DAA1D228EB1008B6148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0240DB61D228EE0008B6148 /* AwSwiftOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwSwiftOperation.swift; sourceTree = "<group>"; };
-		C0AB5EF91D24328E0012894F /* AwFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AwFramework.framework; sourceTree = "<group>"; };
 		C0AB5EFB1D2434520012894F /* MSRightsManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MSRightsManagement.framework; sourceTree = "<group>"; };
 		C0AB5EFD1D24345F0012894F /* MSRightsManagementResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MSRightsManagementResources.bundle; sourceTree = "<group>"; };
 		C0AB5F411D243DED0012894F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -61,7 +59,6 @@
 				C0AB5F441D243DF70012894F /* SystemConfiguration.framework in Frameworks */,
 				C0AB5F421D243DED0012894F /* CoreData.framework in Frameworks */,
 				C0AB5EFC1D2434520012894F /* MSRightsManagement.framework in Frameworks */,
-				C0AB5EFA1D24328E0012894F /* AwFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +123,6 @@
 				C0AB5F411D243DED0012894F /* CoreData.framework */,
 				C0AB5EFD1D24345F0012894F /* MSRightsManagementResources.bundle */,
 				C0AB5EFB1D2434520012894F /* MSRightsManagement.framework */,
-				C0AB5EF91D24328E0012894F /* AwFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

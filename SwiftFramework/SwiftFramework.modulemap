@@ -3,7 +3,11 @@ framework module SwiftFramework {
 umbrella header "SwiftFramework.h"
 
 // Load an SDK header, e.g. CommonCrypto.h
-header "/Users/adityaprasad/Documents/Development/Samples/Learning/cocoaPods/ObjcFramework/SwiftFramework/SwiftFramework/MSRightsManagement.framework/Headers/MSRightsManagement.h"
+
+module Private {
+    umbrella header "/Users/adityaprasad/Documents/Development/Samples/Learning/cocoaPods/ObjcFramework/SwiftFramework/SwiftFramework/MSRightsManagement.framework/Headers/MSRightsManagement.h"
+    export *
+}
 
 export *
 module * { export * }

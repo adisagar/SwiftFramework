@@ -1,6 +1,0 @@
-framework module AwFramework {
-  umbrella header "AwFramework.h"
-
-  export *
-  module * { export * }
-}
