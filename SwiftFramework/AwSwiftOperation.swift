@@ -10,13 +10,19 @@
 import AwFramework
 
 
+
+
 public class AwSwiftOperation: NSObject {
     
-    public func getData() -> String {
-        let result = AwOperation().getData() + "Swift"
-        return result
+    public func getData() {
+        var result = AwOperation().getData() + "Swift"
+        
     }
     
+    public func Irm() {
+       var x = MSProtectedData()
+           x.length(nil)
+    }
     
     
 }

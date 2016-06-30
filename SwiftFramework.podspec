@@ -29,12 +29,13 @@ s.framework = "UIKit"
 
 # 8
 
-s.source_files = "SwiftFramework/**/*.{swift}"
+s.source_files = "SwiftFramework/**/*.{swift}" , "SwiftFramework/SwiftFramework.h"
+
 
 #s.library = 'MSRightsManagement' , 'ADALiOS'
 s.vendored_frameworks = 'SwiftFramework/AwFramework.framework','SwiftFramework/MSRightsManagement.framework'
 #s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => 'AWIrmFramework/MSRightsManagement.framework/' }
 #s.public_header_files =  "AWIrmFramework/*.{h}"
 #s.public_header_files = "SwiftFramework/AwFramework.framework/Versions/A/Headers/*.{h}"
-
+s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => 'AWIrmFramework/MSRightsManagement.framework' }
 end
