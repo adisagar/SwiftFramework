@@ -9,9 +9,6 @@
 
 import AwFramework
 
-
-
-
 public class AwSwiftOperation: NSObject {
     
     public func getData() {

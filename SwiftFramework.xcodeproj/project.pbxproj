@@ -47,7 +47,7 @@
 		C0AB5F491D243E130012894F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		C0AB5F511D2444590012894F /* SwiftFramework-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftFramework-Bridging-Header.h"; sourceTree = "<group>"; };
 		C0AB5F581D24F0E60012894F /* SwiftFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftFramework.h; sourceTree = "<group>"; };
-		C0AB5F591D24F25C0012894F /* modulemap.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = modulemap.map; sourceTree = "<group>"; };
+		C0AB5F591D24F25C0012894F /* SwiftFramework.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = SwiftFramework.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 				C0240DB61D228EE0008B6148 /* AwSwiftOperation.swift */,
 				C0AB5F511D2444590012894F /* SwiftFramework-Bridging-Header.h */,
 				C0AB5F581D24F0E60012894F /* SwiftFramework.h */,
-				C0AB5F591D24F25C0012894F /* modulemap.map */,
+				C0AB5F591D24F25C0012894F /* SwiftFramework.modulemap */,
 			);
 			path = SwiftFramework;
 			sourceTree = "<group>";
@@ -364,7 +364,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/SwiftFramework",
+					"$(PROJECT_DIR)/SwiftFramework/**",
 				);
 				INFOPLIST_FILE = SwiftFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -389,7 +389,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/SwiftFramework",
+					"$(PROJECT_DIR)/SwiftFramework/**",
 				);
 				INFOPLIST_FILE = SwiftFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
